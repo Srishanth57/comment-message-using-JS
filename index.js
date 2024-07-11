@@ -32,7 +32,7 @@ onValue(messageCardinDB, function (snapshot) {
 
     clearShoppingListEl();
 
-    for (let i = 0; i < itemsArray.length; i++) {
+    for (let i = itemsArray.length-1; i >= 0; i--) {
       let currentItem = itemsArray[i];
       let currentItemID = currentItem[0];
       let currentItemValue = currentItem[1];
@@ -46,11 +46,11 @@ onValue(messageCardinDB, function (snapshot) {
 });
 
 function clearShoppingListEl() {
-  messageContainerEl.innerHTML = "";
+    messageContainerEl.innerHTML = "";
 }
 
 function clearInputFieldEl() {
-  inputFieldEl.value = "";
+  inputTextEl.value = ""
 }
 
 function appendItemToShoppingListEl(item) {
@@ -68,4 +68,5 @@ function appendItemToShoppingListEl(item) {
   });
 
   messageContainerEl.append(newEl);
+  
 }
