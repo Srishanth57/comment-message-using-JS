@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+.container-fluid{
+    color: white;
+    background-color: #1B1924;
+}
+img{
+    width: 100px;
+}
+.text-input {
+    height: 118px;
+    width: 317px;
+    background-color: #444059;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #8F8F8F;
+    text-align: center;
+    margin: 15px;
+}
+button{
+    padding: 15px 100px;
+    width: 317px;
+    text-align: center;
+    background-color: #28A9F1;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.endorsement-text {
+    font-size: 20px; 
+    margin: 20px;
+    font-weight: bold;
+}
+.messageContainer {
+    
+    color: black;
+    margin: 6px;
+    list-style-type: none;
+    
+}
+.list {
+    color: white;
+}
+li {
+    margin: 10px;
+    background-color: white;
+    text-align: start;
+    padding: 20px;
+}
